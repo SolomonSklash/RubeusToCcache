@@ -3,8 +3,8 @@ A small tool to convert base64 encoded .kirbi tickets from Rubeus into .ccache f
 
 ## Overview
 
-This is a small tool to handle a common use case I run into often. Rubeus output TGTs in base64 encoded .kirbi files,
-whereas Impacket tools, like wmiexec.py or smbexec.py use the .ccache file format. The two formats are easily
+This is a small tool to handle a common use case I run into often. Rubeus outputs TGTs in base64 encoded .kirbi files,
+whereas Impacket tools, like `wmiexec.py` or `smbexec.py` use the .ccache file format. The two formats are easily
 converted between, thanks to Impacket and Zer1t0's [ticket_converter.py](https://github.com/Zer1t0/ticket_converter).
 But I wanted to be able to use the Rubeus `/nowrap` option and send it right to a tool to get both .kirib and .ccache
 files. Which is what this script does. Big thanks to Zer1t0 and the Impacket project.
