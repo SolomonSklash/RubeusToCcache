@@ -12,9 +12,9 @@ files. Which is what this script does. Big thanks to Zer1t0 and the [Impacket](h
 ## Usage
 
 ```
-╦═╗┬ ┬┌┐ ┌─┐┬ ┬┌─┐  ┌┬┐┌─┐  ┌─┐┌─┐┌─┐┌─┐┬ ┬┌─┐
-╠╦╝│ │├┴┐├┤ │ │└─┐   │ │ │  │  │  ├─┤│  ├─┤├┤
-╩╚═└─┘└─┘└─┘└─┘└─┘   ┴ └─┘  └─┘└─┘┴ ┴└─┘┴ ┴└─┘
+╦═╗┬ ┬┌┐ ┌─┐┬ ┬┌─┐  ┌┬┐┌─┐  ╔═╗┌─┐┌─┐┌─┐┬ ┬┌─┐
+╠╦╝│ │├┴┐├┤ │ │└─┐   │ │ │  ║  │  ├─┤│  ├─┤├┤
+╩╚═└─┘└─┘└─┘└─┘└─┘   ┴ └─┘  ╚═╝└─┘┴ ┴└─┘┴ ┴└─┘
               By Solomon Sklash
           github.com/SolomonSklash
    Inspired by Zer1t0's ticket_converter.py
