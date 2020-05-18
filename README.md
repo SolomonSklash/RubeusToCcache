@@ -1,9 +1,9 @@
 # RubeusToCcache
-A small tool to convert base64 encoded .kirbi tickets from Rubeus into .ccache files for Impacket
+A small tool to convert Base64-encoded .kirbi tickets from Rubeus into .ccache files for Impacket
 
 ## Overview
 
-This is a small tool to handle a common use case I run into often. Rubeus outputs TGTs in base64 encoded .kirbi files,
+This is a small tool to handle a common use case I run into often. Rubeus outputs TGTs in Base64-encoded .kirbi files,
 whereas Impacket tools, like `wmiexec.py` or `smbexec.py` use the .ccache file format. The two formats are easily
 converted between, thanks to Impacket and Zer1t0's [ticket_converter.py](https://github.com/Zer1t0/ticket_converter).
 But I wanted to be able to use the Rubeus `/nowrap` option and send it right to a tool to get both .kirib and .ccache
@@ -22,7 +22,7 @@ files. Which is what this script does. Big thanks to Zer1t0 and the [Impacket](h
 usage: rubeustoccache.py [-h] base64_input kirbi ccache
 
 positional arguments:
-  base64_input  The base64 encoded .kirbi, sucha as from Rubeus.
+  base64_input  The Base64-encoded .kirbi, sucha as from Rubeus.
   kirbi         The name of the output file for the decoded .kirbi file.
   ccache        The name of the output file for the ccache file.
 

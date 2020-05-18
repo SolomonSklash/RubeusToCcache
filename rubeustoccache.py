@@ -5,7 +5,7 @@
 #    Heavily based on ticket_converter.py by Zer1t0 (https://github.com/Zer1t0)
 #
 # Description:
-#    This script will convert the base64 representation of .kirbi files into both a decoded
+#    This script will convert the Base64 representation of .kirbi files into both a decoded
 #    .kirbi and a .ccache file, as used by Impacket scripts.
 #
 # References:
@@ -26,7 +26,7 @@ from impacket.krb5.ccache import CCache
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('base64_input', help="The base64 encoded .kirbi, sucha as from Rubeus.")
+    parser.add_argument('base64_input', help="The Base64-encoded .kirbi, sucha as from Rubeus.")
     parser.add_argument('kirbi', help="The name of the output file for the decoded .kirbi file.")
     parser.add_argument('ccache', help="The name of the output file for the ccache file.")
     return parser.parse_args()
