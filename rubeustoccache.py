@@ -32,9 +32,9 @@ def parse_args():
     return parser.parse_args()
 
 def main():
-    banner =  "╦═╗┬ ┬┌┐ ┌─┐┬ ┬┌─┐  ┌┬┐┌─┐  ┌─┐┌─┐┌─┐┌─┐┬ ┬┌─┐\n"
-    banner += "╠╦╝│ │├┴┐├┤ │ │└─┐   │ │ │  │  │  ├─┤│  ├─┤├┤ \n"
-    banner += "╩╚═└─┘└─┘└─┘└─┘└─┘   ┴ └─┘  └─┘└─┘┴ ┴└─┘┴ ┴└─┘\n"
+    banner =  "╦═╗┬ ┬┌┐ ┌─┐┬ ┬┌─┐  ┌┬┐┌─┐  ╔═╗┌─┐┌─┐┌─┐┬ ┬┌─┐\n"
+    banner += "╠╦╝│ │├┴┐├┤ │ │└─┐   │ │ │  ║  │  ├─┤│  ├─┤├┤ \n"
+    banner += "╩╚═└─┘└─┘└─┘└─┘└─┘   ┴ └─┘  ╚═╝└─┘┴ ┴└─┘┴ ┴└─┘\n"
     banner += (" " * 14) + "By Solomon Sklash\n"
     banner += (" " * 10) + "github.com/SolomonSklash\n"
     banner += (" " * 2) + " Inspired by Zer1t0's ticket_converter.py\n"
